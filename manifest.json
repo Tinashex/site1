@@ -1,0 +1,35 @@
+{
+  "name": "WATSON-XD DEV",
+  "short_name": "WATSON-XD",
+  "description": "The ultimate streaming destination for Movies, Nollywood hits, and exclusive content.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#e50914",
+  "icons": [
+    {
+      "src": "https://files.catbox.moe/3z07rr.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://files.catbox.moe/29wglg.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ],
+  "scope": "/",
+  "orientation": "portrait",
+  "categories": ["entertainment", "video", "movies"],
+  "screenshots": [
+    {
+      "src": "https://files.catbox.moe/3z07rr.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "WATSON-XD Home Screen"
+    }
+  ]
+}
