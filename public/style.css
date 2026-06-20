@@ -1,0 +1,45 @@
+body {
+    margin:0;
+    font-family: Arial;
+    background:#0a0f1e;
+    color:white;
+    text-align:center;
+}
+
+.box {
+    width:300px;
+    margin:100px auto;
+    background:#111a33;
+    padding:20px;
+    border-radius:12px;
+}
+
+input {
+    width:90%;
+    padding:10px;
+    margin:5px;
+}
+
+button {
+    width:95%;
+    padding:10px;
+    margin:5px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.google { background:white; }
+.github { background:black; color:white; }
+.email { background:#00c6ff; }
+
+.card {
+    background:#162044;
+    margin:10px;
+    padding:15px;
+    border-radius:10px;
+}
+
+.dash {
+    padding:20px;
+}

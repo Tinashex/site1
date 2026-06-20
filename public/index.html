@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>WATSON-XD LOGIN</title>
+
+<!-- Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="box">
+    <h2>WATSON-XD LOGIN</h2>
+
+    <button onclick="googleLogin()" class="google">Login with Google</button>
+    <button onclick="githubLogin()" class="github">Login with GitHub</button>
+
+    <input id="email" type="email" placeholder="Email">
+    <input id="password" type="password" placeholder="Password">
+
+    <button onclick="emailLogin()" class="email">Login / Signup</button>
+
+    <p id="msg"></p>
+</div>
+
+<!-- Firebase Config (must load AFTER SDK) -->
+<script src="firebase-config.js"></script>
+
+<!-- Your app logic -->
+<script src="app.js"></script>
+
+</body>
+</html>
